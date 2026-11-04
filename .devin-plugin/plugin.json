@@ -189,6 +189,7 @@
     "./plugins/readwise",
     "./plugins/redis",
     "./plugins/ref-tools",
+    "./plugins/render",
     "./plugins/replicate",
     "./plugins/resend",
     "./plugins/rootly",
