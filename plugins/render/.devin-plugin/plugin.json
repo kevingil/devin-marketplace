@@ -1,0 +1,23 @@
+{
+  "name": "render",
+  "displayName": "Render",
+  "description": "Create and redeploy Render services, query Postgres, and investigate logs, metrics, and deploys",
+  "shortDescription": "Services, databases, logs and metrics",
+  "setup": {
+    "notice": "This connection can create services, change environment variables, and trigger deploys. Each action runs in one Render workspace."
+  },
+  "homepage": "https://render.com",
+  "repository": "https://github.com/render-oss/render-mcp-server",
+  "logo": "logo.svg",
+  "keywords": [
+    "Cloud & Infrastructure"
+  ],
+  "mcpServers": {
+    "render": {
+      "url": "https://mcp.render.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${RENDER_API_KEY}"
+      }
+    }
+  }
+}
